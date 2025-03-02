@@ -6,7 +6,7 @@ import CreateTeamForm from "../components/CreateTeam";
 
 const TeamsPage: React.FC = () => {
   const [filteredTeams, setFilteredTeams] = useState(mockTeams);
-  const [createTeamFormOpen, setCreateTeamFormOpen] = useState(true);
+  const [createTeamFormOpen, setCreateTeamFormOpen] = useState(false);
 
   const handleFilterChange = (filters: any) => {
     console.log("Filters changed:", filters);

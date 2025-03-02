@@ -78,7 +78,7 @@ const EventDetails = () => {
         </div>
         <div className="mt-4 flex gap-2">
           <Textarea
-            className="flex-1 text-black h-10 bg-white dark:bg-black border-none "
+            className="flex-1 h-10 bg-white dark:bg-black border-none "
             placeholder="Write a comment..."
             value={newComment}
             onChange={(e) => setNewComment(e.target.value)}
